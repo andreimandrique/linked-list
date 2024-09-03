@@ -6,7 +6,7 @@ function Node(value = null, next = null) {
 function LinkedList() {
     let list = new Node();
 
-    this.show = () => {
+    this.show = function () {
         console.log(list);
     };
 
