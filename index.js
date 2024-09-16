@@ -24,6 +24,6 @@ console.log(list.contains("dragon")); // I do not have dragon
 
 console.log(list.find("hamster")); // Hamster is in index 4
 
-list.insertAt("fish", 2); // insert fish in index
+list.insertAt("fish", 2); // insert fish in index 0
 
 list.removeAt(4); // remove parrot
